@@ -19,16 +19,19 @@ ul li {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-family:cursive;
 }
 
 /* Add odd/even colors to list*/
 ul li:nth-child(odd) {
   background: #979797;
+  font-family:cursive;
 }
 
 ul li:hover {
   background: black;
   color: white;
+  font-family:cursive;
 }
 
 /* add check mark when clicked*/
@@ -43,6 +46,7 @@ ul li.checked::before {
   transform: rotate(45deg);
   height: 15px;
   width: 7px;
+  font-family:cursive;
 }
 
 /* style close btn*/
@@ -63,6 +67,7 @@ ul li.checked::before {
   background-color: gray;
   padding: 30px 40px;
   text-align: center;
+  font-family:cursive;
 }
 
 /* Style input Btn*/
@@ -86,6 +91,7 @@ input {
   cursor: pointer;
   transition: 0.5s;
   border-radius: 6px;
+  font-family:cursive;
 }
 
 /* Clear floats after header*/
